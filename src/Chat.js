@@ -1,4 +1,3 @@
-import './Chat.css';
 import { useState } from 'react';
 import InputField from './components/Inputfield';
 import ChatMessage from './components/ChatMessage';
@@ -14,6 +13,7 @@ const Chat = () => {
     <div className="chat">
       <InputField onSend={handleSendMessage} />
       <div className="messages">
+        <h1>Чат</h1>
         {messages.map((msg, index) => (
           <ChatMessage
             key={index}
