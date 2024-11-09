@@ -1,0 +1,18 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    gap: 15px;
+    padding: 15px 20px;
+    width: 50vw;
+}
+.form-input, .submitBtn{
+    width: 20%;
+}
+.form-input{
+    width: 300px;
+    padding: 5px 10px;
+}
+.submitBtn{
+    padding: 5px 0;
+}
